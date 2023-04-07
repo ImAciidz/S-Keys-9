@@ -16,8 +16,6 @@ namespace SKeys9 {
 
 			Application.ApplicationExit += new EventHandler(PrepareProgramForExit);
 			AddHooks();
-
-			Keys.ReadJson();
 		}
 
 		#region startup

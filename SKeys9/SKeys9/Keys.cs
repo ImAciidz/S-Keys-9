@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
+﻿using System.Collections.Generic;
 
 namespace SKeys9 {
 	public static class Keys {
@@ -278,11 +275,7 @@ namespace SKeys9 {
 			{ 0xFE, "Clear" },
 			//FF
 		};
-	
-		public static void ReadJson() {
-			string file = Path.Combine(Environment.CurrentDirectory, "keyNames.json");
-			//Process.Start(dir);
-		}
 	}
 
+	// Todo: Custom keynames support
 }
