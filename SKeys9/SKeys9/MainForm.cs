@@ -36,10 +36,10 @@ namespace SKeys9 {
 
 			_hooks.OnKeyDown += _input.OnButtonDown;
 			_hooks.OnKeyUp += _input.OnButtonUp;
-			_hooks.OnMouseDown += _input.OnMouseDown;
-			_hooks.OnMouseUp += _input.OnMouseUp;
-			_hooks.OnMouseScroll += _input.OnMouseScroll;
-			_hooks.OnMouseMove += _input.OnMouseMove;
+			//_hooks.OnMouseDown += _input.OnMouseDown;
+			//_hooks.OnMouseUp += _input.OnMouseUp;
+			//_hooks.OnMouseScroll += _input.OnMouseScroll;
+			//_hooks.OnMouseMove += _input.OnMouseMove;
 
 			_hooks.EnableHooks();
 		}
