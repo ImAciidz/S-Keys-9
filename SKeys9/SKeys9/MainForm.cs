@@ -72,7 +72,7 @@ namespace SKeys9 {
 
 			string text = string.Empty;
 			foreach (string s in e.ActiveButtons) {
-				text += (s + " ");
+				text += (s + "");
 			}
 			text += "\n";
 			foreach (string s in e.ScrollCount.Keys) {
